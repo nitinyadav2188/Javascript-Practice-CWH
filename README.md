@@ -3,5 +3,6 @@ Happy coding! This repository is for personal use to help me track and improve m
 
 To start using this repository, clone it to your local machine:git clone https://github.com/nitinyadav2188/Javascript-Practice-CWH.git
 
-LicenseThis repository is licensed under the MIT License.ContactMaintainer: Nitin Yadav
+LicenseThis repository is licensed under the MIT License.ContactMaintainer: 
+Nitin Yadav
 Contact: whitedevil2188@gmail.com
