@@ -4,7 +4,7 @@ var b= "Harry";
 var c = null;
 var d = undefined
 {
-    let b = 'this'
+    let b = 'this is good'
     console.log(b)
 }
 console.log(b)
