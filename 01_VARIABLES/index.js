@@ -1,3 +1,5 @@
+//JavaScript is a programming language used for creating dynamic content on websites.
+
 console.log("Javascript tutorial 3: var let const")
 var a= 45;
 var b= "Harry";
