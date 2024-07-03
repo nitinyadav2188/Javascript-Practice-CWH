@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>document.getElementsByTagName():</h1>
+    <h3>method returns all the elements of the specified tag name</h3>
+
+    <script>
+        function para(){
+            var totalpara=document.getElementsByTagName("p");
+            alert("Total p tags are:"+ totalpara.length);
+        }
+    </script>
+<p>This is a paragraph</p>
+<p>Lets take this example.</p>
+
+<button onclick="para()">Count</button>
+
+</body>
+</html>
