@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>innerText:</h1>
+    <h3>property can be used to write the dynamic text on the HTML document</h3>
+    <h3>Here,text will not be interpreted as HTML text but as a normal text</h3>
+
+    <script>
+        function validate(){
+            var msg;
+            if(document.myForm.userPass.value.length>8)
+            {
+                msg="strong";
+            }
+            else if(document.myForm.userPass.value.length>5)
+            {
+                msg="Good";
+            }
+            else{
+                msg="Poor";
+            }
+            document.getElementById('mylocation').innerText=msg;
+        }
+    </script>
+    <form name="myForm">
+        <input type="password" value="" name="userPass" onkeyup="validate()">
+        Strength:<span id="mylocation">No Strength</span>
+    </form>
+</body>
+</html>
