@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Object</title>
+</head>
+<body>
+    <h1>Screen Object:</h1>
+    <h3>holds information of browser screen. It can be used to display screen width,height,colorDepth,pixelDepth etc.
+    </h3>
+    <script>
+        function show() {
+            document.writeln("Screen Width:" + screen.width); //returns the width of the screen
+            document.writeln("Screen Height:" + screen.height); //returns the height of the screen
+            document.writeln("availWidth:" + screen.availWidth); //returns the available width
+            document.writeln("availHeight:" + screen.availHeight); //returns the available height
+            document.writeln("colorDepth:" + screen.colordepth); //returns the color depth  
+            document.writeln("pixelDepth:" + screen.pixelDepth); //returns the pixel depth
+        }
+    </script>
+    <button type="button" onclick="show()">Show</button>
+</body>
+
+</html>
