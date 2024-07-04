@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Object</title>
+</head>
+<body>
+    <h1>History Object:</h1>
+    <h3>represents an array of URLs visited by the user.By using this object, you can load previous,forward or any
+        particular page</h3>
+    <br>
+    <h3>syntax: window.history</h3>
+
+    <script>
+        function show(){
+        history.back();//for going to previous page  
+        history.forward();//for going to next page  
+        history.go(2);//for next 2nd page  
+        history.go(-2);//for previous 2nd page  
+        history.length;//returns the length of the history URLs
+        }
+    </script>
+    <button onclick="show()">Show More</button>
+</body>
+</html>
