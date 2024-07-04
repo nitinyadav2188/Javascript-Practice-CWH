@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Navigator Object:</h1>
+    <h3>used for browser detection. It can be used to get browser information such as appName,appCodeName,userAgent etc
+    </h3>
+
+    <script>
+        function obj() {
+            document.writeln("<br/>appCodeName: " + navigator.appCodeName);
+            document.writeln("<br/>appName: " + navigator.appName);
+            document.writeln("<br/>appVersion: " + navigator.appVersion);
+            document.writeln("<br/>cookieEnabled: " + navigator.cookieEnabled);
+            document.writeln("<br/>language: " + navigator.language);
+            document.writeln("<br/>userAgent: " + navigator.userAgent);
+            document.writeln("<br/>platform: " + navigator.platform);
+            document.writeln("<br/>onLine: " + navigator.onLine);
+        } 
+    </script>
+    <button onclick="obj()">Click Me</button>
+
+</body>
+
+</html>
