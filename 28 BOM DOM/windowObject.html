@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object</title>
+</head>
+
+<body>
+    <h1>Window Object:</h1>
+    <ul>
+        <li>the window object represents a window in browser.An object.An object of window is created automatically by
+            the browse</li>
+        <li>Window is the object of browser</li>
+        <li>It is not the object of javascript</li>
+    </ul>
+    <script>
+        //alert ka use:------->displays the alert box containing message with ok button     
+        function msg() {
+            alert("Hello Alert Box");
+        }
+        //confirm ka use------->displays the confirm dialog box containing message with ok and cancel button
+        function msg1() {
+            var v = confirm("Are u sure?");
+            if (v == true) {
+                alert("Are you ok with the above condition ?");        
+                }
+            else {
+                alert("cancel");
+            }
+        }
+        //prompt ka use-------->displays a dialog box to get input from the user
+        function msg2() {
+            var v = prompt("Who are you?");
+            alert("I am " + v);
+        }
+        //open() ka use-------->opens the new window
+        function msg3() {
+            open("http://www.google.com");
+        }
+        //setTimeOut()------>performs action after specified time like calling function,evaluating expressions etc 
+        function msg4() {
+            setTimeout(
+                function () {
+                    alert("Welcome to Google after 2 seconds")
+                }, 2000);
+
+        }   
+    </script>
+    <input type="button" value="Click" onclick="msg()" /> <br>
+    <input type="button" value="Delete Record" onclick="msg1()" /> <br>
+    <input type="button" value="Click" onclick="msg2()" /> <br>
+    <input type="button" value="Google" onclick="msg3()" /> <br>
+    <input type="button" value="click" onclick="msg4()" />
+
+</body>
+
+</html>
