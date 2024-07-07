@@ -7,18 +7,24 @@ catch{} statement: This block handles the error of the code by executing the set
 
 Note: catch {} statement executes only after the execution of the try {} statement. Also, one try block can contain one or more catch blocks --> 
 
+
 <!DOCTYPE html>
-<html>  
-<head> Exception Handling</br></head>  
-<body>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exception Handling</title>
+</head>
+<body>
+     
 <script>  
-try{  
-var a= ["34","32","5","31","24","44","67"]; //a is an array  
-document.write(a);    // displays elements of a  
-document.write(b); //b is undefined but still trying to fetch its value. Thus catch block will be invoked  
-}catch(e){  
-alert("There is error which shows "+e.message); //Handling error  
-}  
-</script>  
-</body>  
+    try{  
+    var a= ["34","32","5","31","24","44","67"]; //a is an array  
+    document.write(a);    // displays elements of a  
+    document.write(b); //b is undefined but still trying to fetch its value. Thus catch block will be invoked  
+    }catch(e){  
+    alert("There is error which shows "+e.message); //Handling error  
+    }  
+    </script>
+</body>
 </html>
