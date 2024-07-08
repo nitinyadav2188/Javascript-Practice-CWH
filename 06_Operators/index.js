@@ -1,6 +1,6 @@
 // OPERATORS AND EXPRESSIONS:
 
-//arithmetic operators--->
+//arithmetic operators--->Arithmetic operators are used to perform arithmetic operations on the operands
 console.log("Operators in js");
 let a=45;
 let b=4;
@@ -21,7 +21,7 @@ let assgn=1;
 assgn +=5;  //assgn= assgn+5 =6
 console.log(assgn);
 
-//Comparison operators--->
+//Comparison operators--->The JavaScript comparison operator compares the two operand
 let c1=2;
 let c2=3;
 console.log("c1==c2",c1==c2);
