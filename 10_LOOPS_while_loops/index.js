@@ -1,4 +1,4 @@
-//while loop:-------->
+//while loop:-------->The JavaScript while loop iterates the elements for the infinite number of times. It should be used if number of iteration is not known.
 let n = prompt("Enter the value of n:")
 n = Number.parseInt(n)
 
@@ -10,7 +10,7 @@ while(i<n){
 //if we write (true) instead of (i<n) code will execute endlessly
 
 
-//do-while loop:-------->
+//do-while loop:-------->The JavaScript do while loop iterates the elements for the infinite number of times like while loop. But, code is executed at least once whether condition is true or false.
 let m = prompt("Enter the value of n:")
 n = Number.parseInt(m)
 
