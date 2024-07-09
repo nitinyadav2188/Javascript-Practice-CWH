@@ -5,7 +5,7 @@ function validate() {
 
     if (name.length < 1) {
         document.getElementById("nameloc").innerHTML =
-            " <img src='unchecked.gif'/> Please enter your name";
+            " <img src='unchecked.gif'/> Please enter your Name";
         status = false;
     } else {
         document.getElementById("nameloc").innerHTML = " <img src='checked.gif'/>";
@@ -13,7 +13,7 @@ function validate() {
     }
     if (password.length < 6) {
         document.getElementById("passwordloc").innerHTML =
-            " <img src='unchecked.gif'/> Password must be at least 6 char long";
+            " <img src='unchecked.gif'/> Password must be at least 6 character long";
         status = false;
     } else {
         document.getElementById("passwordloc").innerHTML = " <img src='checked.gif'/>";
