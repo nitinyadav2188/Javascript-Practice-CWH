@@ -1,0 +1,4 @@
+Javascript Classes:---->
+these are of two types:
+1. Class Declarations
+2. Class Expressions
