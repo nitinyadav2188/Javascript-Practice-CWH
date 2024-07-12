@@ -1,0 +1,4 @@
+Class Expression:--------->
+1.Another way to define a class is by using a class expression.
+2.The class Expression can be "named" or "unnamed".
+3.The class Expression allows us to fetch the class name. 
