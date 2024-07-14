@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript onload</title>
+</head>
+
+<style type="text/css">
+    #bg {
+        width: 200px;
+        height: 200px;
+        border: 4px solid blue;
+    }
+</style>
+
+<body>
+    <h1>JavaScript onload</h1>
+    <h3>
+
+        <br>the onload attribute fires when an object has been loaded.
+        <br>In HTML, the onload attribute is generally used with the "body" element to execute a script once the content
+        (including CSS files, images, scripts, etc.) of the webpage is completely loaded.
+    </h3>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("bg").style.backgroundColor = "red";
+            document.getElementById("bg").style.width = "300px";
+            document.getElementById("bg").style.height = "300px";
+        }  
+    </script>
+    </head>
+
+    <body>
+        <h2> This is an example of window.onload() </h2>
+        <div id="bg"></div>
+
+    </body>
+
+</html>

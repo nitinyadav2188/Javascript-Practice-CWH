@@ -1,0 +1,41 @@
+<!-- Throw Statement:----------
+ Throw statements are used for throwing user-defined errors. User can define and throw their own custom errors.
+ 
+ syntax:
+throw exception;
+
+syntax:
+ try{  
+throw exception; // user can define their own exception  
+}  
+catch(error){  
+expression; }  // code for handling exception
+
+The exception can be a string, number, object, or boolean value.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Exception Handling</title>
+</head>  
+    <body>  
+    <script>  
+    try {  
+       throw new Error('This is the throw keyword'); //user-defined throw statement.  
+    }  
+    catch (e) {  
+      document.write(e.message); // This will generate an error message  
+    }  
+    </script> 
+</html>
+
+
+
+
+
+
+
+

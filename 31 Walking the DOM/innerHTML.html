@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>innerHTML:</h1>
+    <h3>property can be used to write the dynamic.</h3>
+
+    <script>
+        function form() {
+            var data = "Name: 
+                < input type = "text" name = "name" >
+                    <br>
+                        Comment:
+                        <br />
+                        <textarea rows='5' cols='80'></textarea>
+                        <br>
+                            <input type='submit' value='comment'>";
+                                document.getElementById('mylocation').innerHTML = data;  
+        }
+    </script>
+    <form name="myForm">
+        <input type="button" value="comment" onclick="form()">
+        <div id="mylocation"></div>
+    </form>
+</body>
+
+</html>

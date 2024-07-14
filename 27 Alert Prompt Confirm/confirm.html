@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirm</title>
+</head>
+<body>
+    <h1>CONFIRM:</h1>
+    <p>It displays the confirm dialog box. It has message with ok and cancel buttons.</p>
+
+    <script>  
+        function msg(){  
+        var v= confirm("Are u sure?");  
+        if(v==true){  
+        alert("ok");  
+        }  
+        else{  
+        alert("cancel");  
+        }  
+          
+        }  
+        </script>  
+          
+        <input type="button" value="Delete" onclick="msg()"/>  
+        <!-- onclick="msg()"---direct karega msg() function pr ki kaunsa function work karna chahiye yha par -->
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript onresize event</title>
+</head>
+
+<body>
+    <h1>JavaScript onresize event:</h1>
+    <h3>
+        The onresize event in JavaScript generally occurs when the window has been resized. To get the size of the
+        window, we can use the JavaScript's window.outerWidth and window.outerHeight events.
+        <br>In HTML, we can use the onresize attribute and assign a JavaScript function to it.
+        <br>
+
+        <h3> This is an example of using JavaScript's onresize event. </h3>
+        <p> Try to resize the browser's window to see the effect. </p>
+
+        <p id="para"> </p>
+        <p> You have resized the window <span id="s1"> 0 </span> times.</p>
+        <script>
+            document.getElementsByTagName("BODY")[0].onresize = function () { fun() };
+            var i = 0;
+
+            function fun() {
+                var res = "Width = " + window.outerWidth + "<br>" + "Height = " + window.outerHeight;
+                document.getElementById("para").innerHTML = res;
+
+                var res1 = i += 1;
+                document.getElementById("s1").innerHTML = res1;
+            }  
+        </script>
+
+    </h3>
+</body>
+
+</html>

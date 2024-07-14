@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript onclick Event</title>
+</head>
+
+<body>
+    <h1>JavaScript onclick event:</h1>
+    <h3>
+        <br>The onclick event generally occurs when the user clicks on an element
+        <br>It allows the programmer to execute a JavaScript's function when an element gets clicked.
+        <br>In JavaScript by using the addEventListener() method:
+        <br>object.addEventListener("click", myScript);
+        <br>
+
+
+    </h3>
+    <h2> This is an example of using onclick event. </h2>
+    <p> Click the following text to see the effect. </p>
+    <p id="para">Click me</p>
+    <script>
+        document.getElementById("para").onclick = function () {
+            fun()
+        };
+        function fun() {
+            document.getElementById("para").innerHTML = "Welcome to the javaTpoint.com";
+            document.getElementById("para").style.color = "blue";
+            document.getElementById("para").style.backgroundColor = "yellow";
+            document.getElementById("para").style.fontSize = "25px";
+            document.getElementById("para").style.border = "4px solid red";
+        }  
+    </script>
+
+</body>
+
+</html>

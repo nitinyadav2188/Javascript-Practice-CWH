@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript dblclick event</title>
+</head>
+
+<body>
+    <h1>JavaScript dblclick event</h1>
+    <h3>The dblclick event generates an event on double click the element. The event fires when an element is clicked
+        twice in a very short span of time.
+        <br>
+    </h3>
+
+    <h1 id="heading"> Hello world :):) </h1>
+    <h2> Double Click the text "Hello world" to see the effect. </h2>
+    <p> This is an example of creating the double click event using JavaScript. </p>
+    <script>
+        document.getElementById("heading").ondblclick = function () { fun() };
+        function fun() {
+            document.getElementById("heading").innerHTML = " Welcome to the javaTpoint.com ";
+        }  
+    </script>
+</body>
+
+</html>
