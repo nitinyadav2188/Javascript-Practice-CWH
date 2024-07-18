@@ -1,0 +1,7 @@
+the core concept of OOP is to separate concerns and responsibilities into entities.
+
+Entities are coded as objects, and each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity.
+
+OOP is very useful on large scale projects, as it facilitates code modularity and organization.
+
+By implementing the abstraction of entities, we're able to think about the program in a similar way as our world works, with different actors that perform certain actions and interact with each other.
