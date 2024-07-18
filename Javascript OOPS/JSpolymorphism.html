@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Polymorphism</title>
+</head>
+<body>
+    <h1>JS POLYMORPHISM:</h1>
+    <p>
+        <ul>
+            <li>provides a way to perform a single action in different forms.</li>
+            <li>It provides the ability to call the same methods on different Javascript Objects.</li>
+        </ul>
+        <hr>
+        <script>
+            class A{
+                display()
+                {
+                    document.writeln("A is invoked <br>");
+                }
+            }
+            class B extends A
+            {
+                display()
+                {
+                    document.writeln("B is invoked");
+                }
+            }
+            var a=[new A(),new B()]
+            a.forEach(function(msg)
+        {
+            msg.display();
+        });
+        </script>
+    </p>
+</body>
+</html>
