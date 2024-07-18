@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Inheritance</title>
+</head>
+<body>
+    <h1>JS INHERITANCE</h1>
+    <ul>
+        <li>is a mechanism that allows us to create new classes on the basis of already existing classes.</li>
+        <li>It provides flexibility to the child class to reuse the methods and variables of a parent class.</li>
+        <li>The javascript extends keyword is used to create a child on the basis of a parent class.</li>
+    </ul>
+    <h4>Points to remember:</h4>
+    <ol>
+        <li>It maintains a IS-A relationship.</li>
+        <li>The extends keyword is used in class expressions or class declarations.</li>
+    </ol>
+    <hr>
+    <script>
+        class Moment extends Date{
+            constructor(){
+                super();
+            }
+        }
+        var m = new Moment();
+        document.writeln("Current date:")
+        document.writeln(m.getDate()+"-"+m.getFullYear());
+    </script>
+</body>
+</html>
