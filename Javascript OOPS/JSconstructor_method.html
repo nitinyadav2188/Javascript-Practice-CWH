@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JS constructor Method:</h1>
+    it is a special methods--<ul>
+        <li>used to initialise and create an object</li>
+        <li>it is called when memory is allocated for an object</li>
+    </ul>
+    <h4>Points to Remember:</h4>
+    <ol>
+        <li>the constructor keyword is used to declare a constructor method.</li>
+        <li>the class can contain one constructor method only.</li>
+        <li>JS allows us to use parent class constructor through super keyword.</li>
+    </ol>
+    <hr>
+    <script>
+        class Employee {
+            constructor() {
+                this.id = 101;
+                this.name = "Martin";
+            }
+        }
+        var emp = new Employee();
+        document.writeln(emp.id + " " + emp.name);
+
+    </script>
+</body>
+
+</html>
