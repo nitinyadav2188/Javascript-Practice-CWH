@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Encapsulation</title>
+</head>
+
+<body>
+    <h1><u>JS Encapsulation</u></h1>
+    <p>process for binding the data with the function acting on that data.</p>
+    <p>It allows us to control the control the data and validate it.</p>
+
+    <h4>To achieve an Encapsulation:</h4>
+    <ul>
+        <li>use var keyword to make data members private.</li>
+        <li>use setter methods to set the data and getter methods to get that data.</li>
+    </ul>
+    <hr style="background-color: brown;height: 2px;">
+
+    <script>
+    class Student
+    {
+            constructor() 
+            {
+                var name;
+                var marks;
+            }
+            getName() {
+                return this.name;
+            }
+            setName(name) {
+                this.name = name;
+            }
+            getMarks() {
+                return this.marks;
+            }
+            setMarks(marks) {
+                this.marks = marks;
+            }
+        }
+        var stud=new Student();
+        stud=setName("Yadav");
+        stud=setMarks("95");
+        document.writeln(stud.getName()+""+stud.getMarks());
+    </script>
+</body>
+
+</html>

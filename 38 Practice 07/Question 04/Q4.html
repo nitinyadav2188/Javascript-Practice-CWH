@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 04</title>
+    <style>
+        nav {
+            display: flex;
+        }
+
+        nav li {
+            list-style: none;
+            padding: 0 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <mark>Question-04:</mark>write a javascript cod to change the background of all "li" tags to cyan
+    <nav>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+    </nav>
+    <script>
+        Array.from(document.getElementsByTagName("li")).forEach(element => {
+            element.style.background = "cyan";
+        });
+    </script>
+</body>
+
+</html>

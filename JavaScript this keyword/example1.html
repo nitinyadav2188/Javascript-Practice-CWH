@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript this keyword</title>
+</head>
+<body>
+    <!-- JavaScript this Keyword Example -->
+    <script>  
+        var address=  
+        {  
+        company:"Javatpoint",  
+        city:"Noida",  
+        state:"UP",  
+        fullAddress:function()  
+        {  
+        return this.company+" "+this.city+" "+this.state;  
+        }  
+        };  
+          
+          
+        var fetch=address.fullAddress();  
+        document.writeln(fetch);  
+          
+        </script>  
+</body>
+</html>
