@@ -1,0 +1,8 @@
+JavaScript array.length property:
+The length property returns the number of elements in an array in the form of a 32-bit unsigned integer.
+
+The length property can also be used to set the number of elements in an array.
+We have to use the assignment operator in conjunction with the length property to set an array's length.
+
+The array.length property in JavaScript is same as the array.size() method in jQuery.
+In JavaScript, it is invalid to use array.size() method so, we use array.length property to calculate the size of an array.
