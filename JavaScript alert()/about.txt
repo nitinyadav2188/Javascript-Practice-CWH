@@ -1,0 +1,4 @@
+JavaScript alert():
+The alert() method in JavaScript is used to display a virtual alert box.
+
+The alert dialog box takes the focus and forces the user to read the specified message.
