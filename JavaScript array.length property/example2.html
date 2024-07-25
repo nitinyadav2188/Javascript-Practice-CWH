@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript array.length property</title>
+</head>
+<body>
+    <h3> Here, we are setting the length of an array. </h3>  
+<script>  
+var arr = [100, 200];  
+document.write(" Before setting the length, the array elements are: " + arr);  
+  
+arr.length = 9;  
+document.write("<br><br> After setting the length, the array elements are: " + arr);  
+// It will print [ 1, 2, <7 undefined items> ]  
+arr[2] = 300;  
+arr[3] = 400;  
+arr[4] = 500;  
+arr[5] = 600;  
+document.write("<br><br> After inserting some array elements: " + arr);  
+</script>  
+</body>
+</html>
